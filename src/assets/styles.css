@@ -1,0 +1,240 @@
+
+
+.carousel-inner{
+  margin-bottom: 0px;
+}
+.carousel-item {
+  margin-bottom: 0px;
+}
+.carousel img {
+max-height: 800px;
+max-width: 800px;
+margin: 0 auto;
+
+
+
+}
+
+
+$('.carousel').carousel({
+  interval: 500
+})
+
+ 
+
+html {
+  max-height: 100%;
+  position: relative;
+}
+body {
+  margin: 0;
+  margin-bottom: 0px;
+}
+
+body {
+  background: #456;
+  font-family: 'Open Sans', sans-serif;
+}
+.footer {
+  padding: 0px 50px 50px 50px;
+  background-color: #f6f6f6;
+}
+
+.text-footer {
+  color:#fff ;
+  font-size: 12px;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.line-bottom {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  margin-left: 2px;
+  width: 35%;
+  border-top: 1px solid #005898;
+}
+
+.footer-text>span>a {
+  color: #ffff !important;
+  font-weight: 900;
+
+
+}
+
+.list-inline {
+  text-align: left !important;
+}
+
+.list-inline-item {
+  margin-left: 40px;
+}
+
+.contact-info {
+  color: #131c2e;
+}
+
+.contact-info > a {
+  color: #131c2e;
+  text-decoration: none;
+}
+
+.footer-text {
+  color: #7e7e7e;
+  font-weight: 100;
+}
+
+.list-inline-item>a {
+  color: #005898 !important;
+  padding-top: 15px;
+}
+
+.list-inline-item>a:hover {
+  text-decoration: none;
+}
+.footer-text a {
+  text-decoration: none;
+  color: #7e7e7e;;
+}
+footer {
+  padding: 25px 0;
+  text-align: center;
+  color: #a0a0a0;
+  background-color: #f6f6f6;
+}
+
+footer p {
+  font-size: 12px;
+  margin: 0;
+}
+
+footer ul {
+  margin-bottom: 0;
+}
+
+footer ul li a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {
+  text-decoration: none;
+}
+
+
+
+.reds a {
+  margin:5px;
+}
+.login {
+  width: 400px;
+  margin: 16px auto;
+  font-size: 16px;
+}
+
+/* Reset top and bottom margins from certain elements */
+.login-header,
+.login p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* The triangle form is achieved by a CSS hack */
+.login-triangle {
+  width: 0;
+  margin-right: auto;
+  margin-left: auto;
+  border: 12px solid transparent;
+  border-bottom-color: #003459;;
+}
+
+.login-header {
+  background: #003459;;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.login-container {
+  background: #ebebeb;
+  padding: 12px;
+}
+
+/* Every row inside .login-container is defined with p tags */
+.login p {
+  padding: 12px;
+}
+
+.login input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+}
+
+/* Text fields' focus effect */
+.login input[type="email"]:focus,
+.login input[type="password"]:focus {
+  border-color: #888;
+}
+
+.login input[type="submit"] {
+  background: #003459;;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+  background: #17c;
+}
+
+/* Buttons' focus effect */
+.login input[type="submit"]:focus {
+  border-color: #05a;
+}
+.imagen_multimedia{
+  background-image:url("assets/img/DUC.jpg");
+background-repeat:no-repeat;
+height:100px;
+width:100px;
+background-position:center;
+ animation-name:click;
+  animation-duration: 4s;
+}
+
+img{ max-width:100%;}
+
+.subir{
+    padding: 5px 10px;
+    background: navy;
+    color:#fff;
+    border:0px solid #fff;
+    margin-top: 125px;
+}
+ 
+.subir:hover{
+    color:#fff;
+    background: #75B3D7;
+}
+
+.carousel-item img {
+  width: 200px;
+  height: 500px;
+}

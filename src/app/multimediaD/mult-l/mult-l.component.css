@@ -1,0 +1,7 @@
+.mults li.selected {
+  background-color: #CFD8DC;
+  color: white;
+}
+.mults li.selected:hover {
+  background-color: #BBD8DC;
+}

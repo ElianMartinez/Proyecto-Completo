@@ -1,0 +1,36 @@
+
+
+.container{
+  margin-top: 50px;
+}
+
+.navbar img {
+ height: 50px;
+}
+.navbar h3{
+  margin-right: 1180px;
+  color: white;
+ 
+}
+
+details[open] {
+   width: 300px;
+   height: 200px;
+}
+details {
+    width: 100px;
+}
+
+table tr {
+  padding: 25px;
+}
+summary::-webkit-details-marker {
+    display: none;
+}
+summary:before {
+    content: "\2304"; /* the new icon */
+    color: navy;
+    margin-right: 5px;
+    width: 50px;
+
+}

@@ -1,0 +1,11 @@
+<h2>HEROES</h2>
+<ul class="mults">
+  <li *ngFor="let mult of mults$ | async"
+    [class.selected]="mult.id === selectedId">
+    <a [routerLink]="['/mult', mult.id]">
+      <span class="badge">{{ mult.id }}</span>{{ mult.name }}
+    </a>
+  </li>
+</ul>
+
+<button routerLink="/sidekicks">Go to sidekicks</button>
